@@ -3,7 +3,7 @@
 // ============================================
 
 // ⚡⚡⚡ SET YOUR LAUNCH TIME HERE (IST) ⚡⚡⚡
-const LAUNCH_HOUR_IST = 14;      // 23 = 11 PM
+const LAUNCH_HOUR_IST = 19;      // 23 = 11 PM
 const LAUNCH_MINUTE_IST = 48;    // 27 minutes = 11:27 PM IST
 
 // ============================================
@@ -14,7 +14,7 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 
 const ONE_HOUR_MS = 60 * 60 * 1000;
-const CYCLE_HOURS_MS = 25 * 60 * 60 * 1000;  // 25 hours
+const CYCLE_HOURS_MS = 24 * 60 * 60 * 1000;  // 25 hours
 
 function log(message) {
   const timestamp = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
